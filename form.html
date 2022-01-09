@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="media.html">media</a></li>
+                <li><a href="">semantic <ul class="dropdown">
+                            <li><a href="">link-1</a></li>
+                            <li><a href="">link-2</a></li>
+                            <li><a href="">link-3</a></li>
+                            <li><a href="">link-4</a></li>
+                        </ul></a></li>
+                <li><a href="">animation</a></li>
+                <li><a href="table.html">table</a></li>
+                <li><a href="">icon-image</a></li>
+            </ul>
+        </nav>
+        <h1>Fill-ip the form</h1>
+    </header>
+    <form action="">
+        <p>Enter Name <input type="text" name="name" placeholder="Enter name" id=""></p>
+        <p>Enter Email <input type="text" name="Email" placeholder="Enter Email" id=""></p>
+        <p>Enter password <input type="password" name="password" placeholder="" id=""></p>
+        <p>Mobile-No:<input type="tel" id="phone" name="phone" placeholder="01515-451-678"
+                pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" required></p>
+        <p>Birthdate:<input type="date" id="birthdaytime" name="birthdaytime"></p>
+
+        <fieldset>
+            <legend>choose option</legend>
+            <p>
+                <label for="Male">
+                    <input type="radio" name="gender" id="Male">Male
+                </label>
+            </p>
+            <p>
+                <label for="Female">
+                    <input type="radio" name="gender" id="Female">Female
+                </label>
+            </p>
+            <p>
+                <label for="Other">
+                    <input type="radio" name="gender" id="Other">Other
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>qualification of study</legend>
+            <p>
+                <label for="SSC">
+                    <input type="checkbox" name="grade" id="SSC">SSC
+                </label>
+            </p>
+            <p>
+                <label for="HSC">
+                    <input type="checkbox" name="grade" id="HSC">HSC
+                </label>
+            </p>
+            <p>
+                <label for="BSC">
+                    <input type="checkbox" name="grade" id="BSC">BSC
+                </label>
+            </p>
+            <p>
+                <label for="MSC">
+                    <input type="checkbox" name="grade" id="MSC">MSC
+                </label>
+            </p>
+        </fieldset>
+        <p>Write something: <br>
+            <textarea name="Feedback" id="" cols="80" rows="20"></textarea>
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>
